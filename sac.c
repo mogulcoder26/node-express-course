@@ -30,8 +30,8 @@ void main()
             if (min != arr[i])
             {
                 printf("%d", min);
-                break;
             }
+                break;  
         }
     }
 
