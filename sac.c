@@ -22,18 +22,33 @@ void main()
         }
     }
 
-    for (int i = 0; i <= max; i++)
-    {
-        min = min + i;
-        for(int j = 0; j <= 7; j++)
+    int num = min;
+
+    // for (int i = 0; i <= 7; i++)
+    // {
+        for (int j = 0; j <= 7; j++)
         {
-            if (min != arr[i])
+            if (arr[j] == num)
             {
-                printf("%d", min);
+                printf("present\n");
             }
-                break;  
+            
         }
-    }
+        
+    // }
+
+    // for (int i = 0; i <= max; i++)
+    // {
+    //     min = min + i;
+    //     for(int j = 0; j <= 7; j++)
+    //     {
+    //         if (min != arr[i])
+    //         {
+    //             printf("%d", min);
+    //         }
+    //             break;
+    //     }
+    // }
 
     // printf("%d  %d",max,min);
 }
